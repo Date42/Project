@@ -2,8 +2,10 @@
 #Acıkhack2022 #AcikKaynakPlatformu
 
 ## Proje Aşamaları
--Proje belirlendi ve veri tabanı oluşturuluyor.
--Arayüz sunumu hazırlanıyor.
+### Proje belirlendi ve veri tabanı oluşturuluyor.
+### Arayüz sunumu hazırlanıyor.
+### Arayüz Oluşturuldu.
+### VeriTabanı Oluşturuldu.
 
 ## Ekip Üyeleri
 - [**Ahmet Özsayar**](https://github.com/zsayar17)
