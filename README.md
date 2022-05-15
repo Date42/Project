@@ -9,6 +9,7 @@
 ### Masaüstü Uygulamanın ilk durumu oluşturuldu.
 ### Kullanıcı arayüzü oluşturuldu ve geliştiriliyor.
 ### Kullanıcı arayüzü güncelleştirildi. (Access veri tabanı ile bağlı değildir veri tabanı örnektir)
+### Proje tamamlandı test arayüzü hazır hale geldi.
 
 ## Projeyi test et
 ### date42\date42\bin\x64\Debug uzantısına gelerek date42 exe dosyasını çalıştır.
