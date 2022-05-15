@@ -86,6 +86,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label2
             // 
@@ -97,6 +98,7 @@
             this.label2.Size = new System.Drawing.Size(408, 25);
             this.label2.TabIndex = 31;
             this.label2.Text = "____________________________________";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -108,6 +110,7 @@
             this.label1.Size = new System.Drawing.Size(255, 69);
             this.label1.TabIndex = 30;
             this.label1.Text = "Kullanıcı";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button5
             // 
@@ -161,6 +164,7 @@
             this.label3.Size = new System.Drawing.Size(129, 29);
             this.label3.TabIndex = 35;
             this.label3.Text = "02.01.2003";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -170,6 +174,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 29);
             this.label4.TabIndex = 36;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -181,6 +186,7 @@
             this.label5.Size = new System.Drawing.Size(84, 29);
             this.label5.TabIndex = 37;
             this.label5.Text = "60.000";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -192,6 +198,7 @@
             this.label6.Size = new System.Drawing.Size(123, 29);
             this.label6.TabIndex = 38;
             this.label6.Text = "Kullanıcı 1";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // button2
             // 
@@ -217,6 +224,7 @@
             this.label7.Size = new System.Drawing.Size(174, 29);
             this.label7.TabIndex = 66;
             this.label7.Text = "Araç Alış Tarihi";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -228,6 +236,7 @@
             this.label8.Size = new System.Drawing.Size(184, 29);
             this.label8.TabIndex = 67;
             this.label8.Text = "Araç satış Tarihi";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label9
             // 
@@ -239,6 +248,7 @@
             this.label9.Size = new System.Drawing.Size(169, 29);
             this.label9.TabIndex = 68;
             this.label9.Text = "Araç Alış Fiyatı";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
@@ -251,6 +261,7 @@
             this.label10.Size = new System.Drawing.Size(129, 29);
             this.label10.TabIndex = 69;
             this.label10.Text = "23.08.2011";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // Form4
             // 

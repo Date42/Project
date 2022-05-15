@@ -1,16 +1,21 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace date42
 {
-    public partial class Form4 : Form
+    public partial class Form8 : Form
     {
-        public Form4()
+        public Form8()
         {
             InitializeComponent();
         }
-
         Point İlkkonum;
         bool durum = false;
         private void Form1_MouseDown(object sender, MouseEventArgs e)
@@ -51,6 +56,11 @@ namespace date42
         {
             this.WindowState = FormWindowState.Minimized;
         }
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void button6_Click(object sender, EventArgs e)
         {
             Form5 form = new Form5();
@@ -58,11 +68,19 @@ namespace date42
             this.Hide();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            Form6 form = new Form6();
-            form.Show();
-            this.Hide();
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Mouse(object sender, MouseEventArgs e)
+        {
+
         }
 
         private void button2_Click_1(object sender, EventArgs e)
@@ -71,69 +89,12 @@ namespace date42
             form.Show();
             this.Close();
         }
-        private void Form4_Load(object sender, EventArgs e)
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            Form1 form = new Form1();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
+            Form6 form = new Form6();
+            form.Show();
+            this.Close();
         }
     }
 }
