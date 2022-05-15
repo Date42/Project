@@ -75,13 +75,11 @@
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(37, 41);
-            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(521, 49);
+            this.textBox1.Size = new System.Drawing.Size(521, 41);
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = "🔎 ARAÇ SERİ NUMARASI";
             this.textBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox1_MouseClick);
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button3
             // 

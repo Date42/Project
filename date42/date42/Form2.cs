@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
 
 namespace date42
 {
@@ -17,9 +10,6 @@ namespace date42
         {
             InitializeComponent();
         }
-        OleDbConnection con;
-        OleDbCommand cmd;
-        OleDbDataReader dr;
         private void Form2_Load(object sender, EventArgs e)
         {
 
@@ -85,6 +75,13 @@ namespace date42
             Form4 form = new Form4();
             form.Show();
             form.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form7 form = new Form7();
+            form.Show();
+            this.Hide();
         }
     }
 }

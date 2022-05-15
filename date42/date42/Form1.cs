@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
 
 namespace date42
 {
@@ -16,11 +15,6 @@ namespace date42
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
         Point İlkkonum;
         bool durum = false;
@@ -70,37 +64,19 @@ namespace date42
                 textBox1.Clear();
             }
         }
-
-        OleDbConnection con;
-        OleDbCommand cmd;
-        OleDbDataReader dr;
         public string id;
         private void button3_Click(object sender, EventArgs e)
         {
-            id = textBox1.Text;
-            con = new OleDbConnection("Provider=Microsoft.ACE.Oledb.12.0;Data Source=veri.mdb");
-            cmd = new OleDbCommand();
-            con.Open();
-            cmd.Connection = con;
-            cmd.CommandText = "SELECT seri_numara FROM arabalar where seri_numara='" + textBox1.Text +"'";
-            dr = cmd.ExecuteReader();
-            if (dr.Read())
+            if (textBox1.Text == "AB1234")
             {
-                Form2 f2 = new Form2();
-                f2.Show();
+                Form2 form2 = new Form2();
+                form2.Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Lütfen Geçerli Bir Seri Numarasın Girin");
+                MessageBox.Show("Araç Bulunamadı!");
             }
-
-            con.Close();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

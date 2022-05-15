@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
 
 namespace date42
 {
@@ -78,26 +71,14 @@ namespace date42
             form.Show();
             this.Close();
         }
-        OleDbConnection con;
-        OleDbCommand cmd;
-        OleDbDataReader dr;
         private void Form4_Load(object sender, EventArgs e)
         {
             Form1 form = new Form1();
-            con = new OleDbConnection("Provider=Microsoft.ACE.Oledb.12.0;Data Source=veri.mdb");
-            cmd = new OleDbCommand();
-            con.Open();
-            cmd.Connection = con;
-            cmd.CommandText = "SELECT * FROM alis_satis_verileri where seri_numara='" + form.id + "'";
-            dr = cmd.ExecuteReader();
-            if (dr.Read())
-            {
-                label3.Text = dr["alis_tarihi"].ToString();
-            }
-            else
-            {
-                MessageBox.Show("Lütfen Geçerli Bir Seri Numarasın Girin");
-            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
