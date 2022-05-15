@@ -11,19 +11,13 @@ using System.Data.OleDb;
 
 namespace date42
 {
-    public partial class Form2 : Form
+    public partial class Form4 : Form
     {
-        public Form2()
+        public Form4()
         {
             InitializeComponent();
         }
-        OleDbConnection con;
-        OleDbCommand cmd;
-        OleDbDataReader dr;
-        private void Form2_Load(object sender, EventArgs e)
-        {
 
-        }
         Point İlkkonum;
         bool durum = false;
         private void Form1_MouseDown(object sender, MouseEventArgs e)
@@ -64,27 +58,46 @@ namespace date42
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
-
-        
-
-        private void label3_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Form3 form = new Form3();
+            Form5 form = new Form5();
             form.Show();
             this.Hide();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Form4 form = new Form4();
+            Form6 form = new Form6();
             form.Show();
-            form.Close();
+            this.Hide();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Form3 form = new Form3();
+            form.Show();
+            this.Close();
+        }
+        OleDbConnection con;
+        OleDbCommand cmd;
+        OleDbDataReader dr;
+        private void Form4_Load(object sender, EventArgs e)
+        {
+            Form1 form = new Form1();
+            con = new OleDbConnection("Provider=Microsoft.ACE.Oledb.12.0;Data Source=veri.mdb");
+            cmd = new OleDbCommand();
+            con.Open();
+            cmd.Connection = con;
+            cmd.CommandText = "SELECT * FROM alis_satis_verileri where seri_numara='" + form.id + "'";
+            dr = cmd.ExecuteReader();
+            if (dr.Read())
+            {
+                label3.Text = dr["alis_tarihi"].ToString();
+            }
+            else
+            {
+                MessageBox.Show("Lütfen Geçerli Bir Seri Numarasın Girin");
+            }
         }
     }
 }

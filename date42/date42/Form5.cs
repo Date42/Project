@@ -7,22 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
 
 namespace date42
 {
-    public partial class Form2 : Form
+    public partial class Form5 : Form
     {
-        public Form2()
+        public Form5()
         {
             InitializeComponent();
-        }
-        OleDbConnection con;
-        OleDbCommand cmd;
-        OleDbDataReader dr;
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
         Point İlkkonum;
         bool durum = false;
@@ -64,27 +56,16 @@ namespace date42
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
-
-        
-
-        private void label3_Click(object sender, EventArgs e)
+        private void Form5_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Form3 form = new Form3();
-            form.Show();
-            this.Hide();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
             Form4 form = new Form4();
             form.Show();
-            form.Close();
+            this.Close();
         }
     }
 }
