@@ -8,6 +8,8 @@
 ### VeriTabanı Oluşturuldu.
 ### Masaüstü Uygulamanın ilk durumu oluşturuldu.
 ### Kullanıcı arayüzü oluşturuldu ve geliştiriliyor.
+### Kullanıcı arayüzü güncelleştirildi. (Access veri tabanı ile bağlı değildir veri tabanı örnektir)
+
 ## Ekip Üyeleri
 - [**Ahmet Özsayar**](https://github.com/zsayar17)
 - [**Deniz Karhan**](https://github.com/denizkarhan)
