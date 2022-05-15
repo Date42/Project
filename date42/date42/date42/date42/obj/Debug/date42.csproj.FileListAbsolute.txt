@@ -1,0 +1,13 @@
+C:\Users\campo\Desktop\date42\date42\obj\Debug\date42.csproj.AssemblyReference.cache
+C:\Users\campo\Desktop\date42\date42\obj\Debug\date42.csproj.SuggestedBindingRedirects.cache
+C:\Users\campo\Desktop\date42\date42\obj\Debug\date42.Properties.Resources.resources
+C:\Users\campo\Desktop\date42\date42\obj\Debug\date42.csproj.GenerateResource.cache
+C:\Users\campo\Desktop\date42\date42\obj\Debug\date42.csproj.CoreCompileInputs.cache
+C:\Users\campo\Desktop\date42\date42\bin\Debug\date42.exe.config
+C:\Users\campo\Desktop\date42\date42\bin\Debug\date42.exe
+C:\Users\campo\Desktop\date42\date42\bin\Debug\date42.pdb
+C:\Users\campo\Desktop\date42\date42\obj\Debug\date42.Form1.resources
+C:\Users\campo\Desktop\date42\date42\obj\Debug\date42.exe
+C:\Users\campo\Desktop\date42\date42\obj\Debug\date42.pdb
+C:\Users\campo\Desktop\date42\date42\obj\Debug\date42.Form2.resources
+C:\Users\campo\Desktop\date42\date42\bin\Debug\veri.mdb
