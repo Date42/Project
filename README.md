@@ -2,10 +2,10 @@
 #Acıkhack2022 #AcikKaynakPlatformu
 
 ## Projeyi test et
-### date42\date42\bin\x64\Debug uzantısına gelerek date42 exe dosyasını çalıştır.
-### AB1234 seri numarasını girerek "Ara" butonuyla giriş yapın.
-### Araç özgeçmişi ile her kullanıcının araçlar geçmişini görüntüleyin.
-### Genel özellikler ile aracın temel bilgilerini görüntüleyin.
+* date42\date42\bin\x64\Debug uzantısına gelerek date42 exe dosyasını çalıştır.
+* AB1234 seri numarasını girerek "Ara" butonuyla giriş yapın.
+* Araç özgeçmişi ile her kullanıcının araçlar geçmişini görüntüleyin.
+* Genel özellikler ile aracın temel bilgilerini görüntüleyin.
 
 ## Ekip Üyeleri
 - [**Ahmet Özsayar**](https://github.com/zsayar17)
